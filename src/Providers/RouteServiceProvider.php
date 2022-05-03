@@ -19,7 +19,7 @@ class RouteServiceProvider extends BaseRouteServiceProvider
     /**
      * @var string
      */
-    public const HOME = '/my-space/dashboard';
+    public const MYSPACE = '/my-space/dashboard';
     /**
      * @var string
      */

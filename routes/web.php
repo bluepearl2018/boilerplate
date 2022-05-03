@@ -18,12 +18,6 @@ use Illuminate\Routing\Redirector;
 |
 */
 
-Route::get(/**
- * @return Application|Factory|\Illuminate\Contracts\View\View
- */ '/', function () {
-    return view('welcome');
-    //	return redirect('/welcome');
-})->name('welcome');
 
 Route::get(/**
  * @return Application|Factory|\Illuminate\Contracts\View\View
